@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Form Pendaftaran</title>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Form Pendaftaran</h2>
+
+  <form>
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Masukkan password">
+
+    <label for="alamat">Alamat</label>
+    <textarea id="alamat" name="alamat" rows="4" placeholder="Masukkan alamat lengkap"></textarea>
+
+    <label>Jenis Kelamin</label>
+    <div class="pilihan">
+      <label class="pilihan-item"><input type="radio" name="gender" value="pria"> Pria</label>
+      <label class="pilihan-item"><input type="radio" name="gender" value="wanita"> Wanita</label>
+    </div>
+
+    <label>Hobi</label>
+    <div class="pilihan">
+      <label class="pilihan-item"><input type="checkbox" name="hobi" value="membaca"> Membaca</label>
+      <label class="pilihan-item"><input type="checkbox" name="hobi" value="olahraga"> Olahraga</label>
+      <label class="pilihan-item"><input type="checkbox" name="hobi" value="musik"> Musik</label>
+    </div>
+
+    <label for="jurusan">Jurusan</label>
+    <select id="jurusan" name="jurusan">
+      <option value="ti">Teknik Informatika</option>
+      <option value="si">Sistem Informasi</option>
+      <option value="tk">Teknik Komputer</option>
+    </select>
+
+    <button type="submit">Daftar</button>
+  </form>
+</div>
+
+</body>
+</html>
