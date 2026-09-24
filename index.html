@@ -3,57 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kumpulan Tugas Pemrograman Web</title>
+  <title>Tugas Pemrograman Web</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <nav class="navbar">
-      <a class="brand" href="index.html">Tugas Web</a>
-      <a class="github-link" href="https://github.com/qairsyayaliki-cloud/tugas-pemrograman-web" target="_blank" rel="noopener">GitHub ↗</a>
-    </nav>
-    <div class="hero-content">
-      <p class="eyebrow">PORTOFOLIO PEMROGRAMAN WEB</p>
-      <h1>Kumpulan Tugas<br><span>Pemrograman Web</span></h1>
-      <p class="intro">Satu halaman untuk mengakses semua tugas HTML dan CSS yang sudah dibuat.</p>
-      <a class="primary-button" href="#daftar-tugas">Lihat semua tugas ↓</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Tugas Pemrograman Web</a>
+      <a class="github-link" href="https://github.com/qairsyayaliki-cloud/tugas-pemrograman-web" target="_blank" rel="noopener">Lihat GitHub</a>
     </div>
   </header>
 
-  <main class="container" id="daftar-tugas">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">DAFTAR TUGAS</p>
-        <h2>Eksplorasi tugas saya</h2>
+  <main class="container">
+    <section class="intro">
+      <p class="eyebrow">KUMPULAN TUGAS</p>
+      <h1>Selamat datang</h1>
+      <p>Berikut adalah kumpulan tugas pemrograman web yang saya kerjakan menggunakan HTML, CSS, dan JavaScript.</p>
+    </section>
+
+    <section id="daftar-tugas" aria-labelledby="judul-tugas">
+      <div class="section-heading">
+        <h2 id="judul-tugas">Daftar Tugas</h2>
+        <p>3 tugas tersedia</p>
       </div>
-      <p class="task-count">02 tugas tersedia</p>
-    </div>
 
-    <section class="task-grid" aria-label="Daftar tugas">
-      <article class="task-card">
-        <div class="number">01</div>
-        <div class="card-content">
-          <p class="tag">HTML · JAVASCRIPT</p>
+      <div class="task-list">
+        <article class="task-card">
+          <p class="number">Tugas 1</p>
+          <h3>Candi Borobudur</h3>
+          <p>Halaman informasi tentang sejarah, tempat menarik, aktivitas, dan akses menuju Candi Borobudur.</p>
+          <a class="task-link" href="tugas-tugas/tugas1/kode1/index.html">Buka tugas 1 →</a>
+        </article>
+
+        <article class="task-card">
+          <p class="number">Tugas 2</p>
           <h3>Kalkulator Aritmatika</h3>
-          <p>Kalkulator sederhana untuk melakukan operasi tambah, kurang, kali, dan bagi.</p>
-          <a class="card-link" href="tugas-tugas/tugas2/kode2/index.html">Buka tugas <span>→</span></a>
-        </div>
-      </article>
+          <p>Kalkulator sederhana untuk operasi tambah, kurang, kali, dan bagi.</p>
+          <a class="task-link" href="tugas-tugas/tugas2/kode2/index.html">Buka tugas 2 →</a>
+        </article>
 
-      <article class="task-card">
-        <div class="number">02</div>
-        <div class="card-content">
-          <p class="tag">HTML · CSS</p>
+        <article class="task-card">
+          <p class="number">Tugas 3</p>
           <h3>Form Pendaftaran</h3>
-          <p>Form pendaftaran dengan input nama, password, alamat, jenis kelamin, hobi, dan jurusan.</p>
-          <a class="card-link" href="tugas-tugas/tugas3/kode3/index.html">Buka tugas <span>→</span></a>
-        </div>
-      </article>
+          <p>Form pendaftaran dengan beberapa jenis input seperti nama, alamat, hobi, dan jurusan.</p>
+          <a class="task-link" href="tugas-tugas/tugas3/kode3/index.html">Buka tugas 3 →</a>
+        </article>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2024 · Tugas Pemrograman Web</p>
-  </footer>
+  <footer>© 2026 · Tugas Pemrograman Web</footer>
 </body>
 </html>
