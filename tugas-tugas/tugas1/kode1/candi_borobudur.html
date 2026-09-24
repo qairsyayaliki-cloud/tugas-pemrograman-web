@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candi Borobudur</title>
+
+    <style>
+        /* CSS sederhana agar mudah dipahami mahasiswa semester 1 */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f7fb;
+            color: #222;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 950px;
+            margin: 20px auto;
+            background-color: white;
+            border: 1px solid #7ea9c8;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+        }
+
+        header {
+            background-color: #075b9a;
+            color: white;
+            text-align: center;
+            padding: 18px 10px 14px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        header p {
+            margin: 6px 0 0;
+            font-style: italic;
+            color: #d9efff;
+        }
+
+        nav {
+            background-color: #0d6faa;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        aside {
+            width: 24%;
+            padding: 15px;
+            border-right: 1px solid #b9cddd;
+            background-color: #eef7fd;
+            box-sizing: border-box;
+        }
+
+        aside h3 {
+            color: #075b9a;
+            margin-top: 0;
+        }
+
+        aside ul {
+            padding-left: 20px;
+        }
+
+        aside li {
+            margin-bottom: 8px;
+        }
+
+        aside a {
+            color: #075b9a;
+        }
+
+        main {
+            width: 76%;
+            padding: 18px;
+            box-sizing: border-box;
+        }
+
+        main h2 {
+            color: #075b9a;
+            border-bottom: 2px solid #b9d9ee;
+            padding-bottom: 5px;
+        }
+
+        .hero-image {
+            width: 330px;
+            max-width: 100%;
+            display: block;
+            margin-bottom: 12px;
+            border-radius: 5px;
+        }
+
+        p {
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        li {
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #075b9a;
+            color: white;
+            text-align: center;
+            padding: 9px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+            }
+
+            aside,
+            main {
+                width: 100%;
+            }
+
+            aside {
+                border-right: none;
+                border-bottom: 1px solid #b9cddd;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 4px 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Candi Borobudur</h1>
+        <p>Warisan budaya dan salah satu destinasi wisata terkenal di Indonesia</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang Borobudur</a>
+        <a href="#wisata">Tempat Menarik</a>
+        <a href="#aktivitas">Aktivitas</a>
+        <a href="#akses">Akses</a>
+    </nav>
+
+    <div class="content">
+
+        <aside>
+            <h3>Info Singkat</h3>
+
+            <ul>
+                <li><b>Lokasi:</b> Magelang, Jawa Tengah</li>
+                <li><b>Jenis:</b> Candi Buddha</li>
+                <li><b>Daya tarik:</b> Arsitektur, sejarah, dan pemandangan</li>
+            </ul>
+
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#tentang">Tentang Borobudur</a></li>
+                <li><a href="#wisata">Tempat Menarik</a></li>
+                <li><a href="#aktivitas">Aktivitas</a></li>
+                <li><a href="#akses">Akses Transportasi</a></li>
+            </ul>
+        </aside>
+
+        <main>
+
+            <section id="tentang">
+                <h2>Keindahan Candi Borobudur</h2>
+
+                <!-- Gambar menggunakan Wikimedia Commons -->
+                <img
+                    class="hero-image"
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Borobudur-Nothwest-view.jpg"
+                    alt="Candi Borobudur"
+                >
+
+                <p>
+                    Candi Borobudur adalah candi Buddha yang berada di Magelang,
+                    Jawa Tengah. Candi ini terkenal karena bentuk bangunannya yang
+                    unik, susunan stupa, serta relief yang menceritakan berbagai
+                    kisah kehidupan dan ajaran Buddha.
+                </p>
+
+                <p>
+                    Borobudur menjadi salah satu tujuan wisata budaya yang banyak
+                    dikunjungi. Selain melihat candi, pengunjung juga dapat menikmati
+                    pemandangan alam di sekitar kawasan Borobudur.
+                </p>
+            </section>
+
+            <section id="wisata">
+                <h2>Tempat Menarik di Borobudur</h2>
+
+                <ol>
+                    <li><b>Stupa Borobudur</b> – Bagian utama candi dengan banyak stupa yang menjadi ciri khas Borobudur.</li>
+                    <li><b>Relief Candi</b> – Relief pada dinding candi yang memiliki nilai sejarah dan budaya.</li>
+                    <li><b>Puncak Candi</b> – Tempat untuk melihat pemandangan kawasan sekitar.</li>
+                    <li><b>Desa Wisata</b> – Pengunjung dapat mengenal kehidupan dan budaya masyarakat sekitar.</li>
+                    <li><b>Pemandangan Alam</b> – Area sekitar Borobudur memiliki suasana yang indah dan tenang.</li>
+                </ol>
+            </section>
+
+            <section id="aktivitas">
+                <h2>Aktivitas yang Bisa Dilakukan</h2>
+
+                <ul>
+                    <li>Melihat arsitektur dan relief Candi Borobudur.</li>
+                    <li>Mengambil foto di kawasan candi.</li>
+                    <li>Menikmati pemandangan dari area sekitar candi.</li>
+                    <li>Mempelajari sejarah dan budaya Borobudur.</li>
+                    <li>Mencoba kuliner khas di sekitar kawasan wisata.</li>
+                </ul>
+            </section>
+
+            <section id="akses">
+                <h2>Akses Transportasi Menuju Borobudur</h2>
+
+                <p>
+                    Borobudur dapat dikunjungi melalui perjalanan darat dari berbagai
+                    kota di Jawa Tengah maupun dari Yogyakarta. Pengunjung dapat
+                    menggunakan kendaraan pribadi, bus, travel, atau kendaraan umum
+                    menuju kawasan Magelang dan dilanjutkan ke Borobudur.
+                </p>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        © 2026 - Pemrograman Web | Candi Borobudur
+    </footer>
+
+</div>
+
+</body>
+</html>
